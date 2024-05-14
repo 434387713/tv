@@ -64,7 +64,7 @@
     "ratio": 1.1
    }
   },
-		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.a.json$$$./lib/pikpakclass.a.json.db.gz",
+		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.a.json$$$./lib/pikpakclass.a.json.txt.gz",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -77,10 +77,10 @@
 		
 		
 		
-		{"key":"SeHuaTang","name":"色花堂","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy","style": {"type": "rect","ratio": 1.5}},
-		{"key":"csp_Netflav","name":"Netflav","type":3,"api":"csp_Netflav","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
-		{"key":"Taohuazu","name":"🔞桃花族|不用挂梯","type":3,"style":{"ratio":1.7},"api":"csp_Taohuazu","ext":"./lib/tokenm.json$$$http://thzf.cc"},
-		{
+		{"key":"SeHuaTang","name":"色花堂｜p加","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy","style": {"type": "rect","ratio": 1.5}},
+		{"key":"csp_Netflav","name":"Netflav｜好梯","type":3,"api":"csp_Netflav","ext":"null$$$proxy","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
+	{"key":"Taohuazu","name":"🔞桃花族 🚀","type":3,"api":"csp_Taohuazu","searchable":0,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60,"ext": "http://127.0.0.1:9978/file/TV/tokenm.json$$$http://thzf.cc$$$proxy"},	
+	{
     "key": "BtSearch",
     "name": "🍃 | BT搜索 | 💠",
     "type": 3,
@@ -131,7 +131,7 @@
     "ext": "./lib/tokenm.json$$$null$$$null$$$1"
 },
 {
-            "key": "csp_91黑料",
+            "key": "csp_91黑料｜直连",
             "name": "91黑料",
             "type": 3,
             "api": "csp_XBPQ",
@@ -157,9 +157,9 @@
                 "分类ID": "/t/&&/"
             }
         },
-        {"key":"Cable","name":"CableAV","type":3,"api":"csp_Cable","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
+        {"key":"Cable","name":"CableAV｜好梯启动","type":3,"api":"csp_Cable","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
 		{"key":"csp_JavBus","name":"JavBus","type":3,"api":"csp_JavBus",
-		"ext":"./lib/tokenm.json$$$1","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"timeout":60},
+		"ext":"./lib/tokenm.json$$$https://www.cdnbus.shop","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"timeout":60},
 {"key":"csp_JavDb","name":"JavDb","type":3,"api":"csp_JavDb",
 "ext":"./lib/tokenm.json$$$1","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"timeout":60},
 		{"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
@@ -207,7 +207,8 @@
             "ext": "./lib/狼群影院.json",
             "jar": "./lib/XBPQ.jar"
         },
-        {"key":"u9a9","name":"🔞u9a9|磁力","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"type":"list"},
+        {"key":"u9a9","name":"🔞u9a9|磁力","type":3,"api":"csp_XBPQ",
+        "ext":"./lib/tokenm.json$$$1","jar":"./lib/XBPQ.jar","style":{"type":"list"},
             "ext": {
         "搜索url":"https://u9a9b.cc/?type=1&search={wd}&p={pg}",
         "数组":"<tr&&</tr>",
@@ -258,6 +259,20 @@
         "分类url": "http://oy.oyxx-1.eu.org/hs1.php?u=vodtype/{cateId}-{catePg}.html;;zm"
             }
         },
+        {
+            "key": "Doll",
+            "name": "🔞┃Doll┃需挂梯",
+            "type": 3,
+            "api": "csp_Doll",
+            "changeable": 0,
+            "quickSearch": 1,
+            "searchable": 1,
+            "ext": "socks5://127.0.0.1:10072",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+         }   },
+         {"key": "Supjav","name": "🔞Supav🚀","type": 3,"api": "csp_Supjav","searchable": 0,"quickSearch": 1,"filterable": 1,"jar": "./jar/xc0126.jar"},
 {"key":"drpy_js_ss直播","name":"ss直播","type":3,"api":"./lib/drpy2.min.js","ext":"./js/ss直播.js","timeout":30},
 {"key":"drpy_js_Missav","name":"Missav","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js"},
 {"key":"drpy_js_玩偶姐姐","name":"玩偶姐姐","type":3,"api":"./lib/drpy2.min.js","ext":"./js/玩偶姐姐.js"},
